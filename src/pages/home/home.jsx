@@ -1,4 +1,4 @@
-import "./Home.css";
+import './home.css'
 
 import hero from '../../assets/images/image7.svg'
 
