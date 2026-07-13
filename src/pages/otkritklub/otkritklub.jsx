@@ -1,4 +1,4 @@
-function Otcriritiklub() {
+function Otkritklub() {
     return(
         <div>
             <h1>club</h1>
@@ -6,4 +6,4 @@ function Otcriritiklub() {
     )
 }
 
-export default Otcriritiklub
+export default Otkritklub

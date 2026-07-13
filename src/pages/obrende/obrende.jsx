@@ -1,7 +1,9 @@
+import './obrende.css'
+
 function Obrende() {
     return(
         <div>
-            <h1>obrende</h1>
+          
         </div>
     )
 }

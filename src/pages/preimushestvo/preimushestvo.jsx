@@ -1,7 +1,7 @@
-function Preimushestvos() {
+function Preimushestvo() {
     return(
         <div><h1>preimushestvo</h1></div>
     )
 }
 
-export default Preimushestvos
+export default Preimushestvo
