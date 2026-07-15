@@ -1,0 +1,141 @@
+.preim {
+    width: 1200px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.preim-top {
+    background: #11ace4;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.preim-top span {
+    display: block;
+    color: #ffe600;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+
+.preim-top h1 {
+    color: #fff;
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.preim-top p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.5;
+}
+
+.preim-banner {
+    position: relative;
+}
+
+.preim-banner img {
+    width: 100%;
+    display: block;
+}
+
+.banner-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    text-align: center;
+}
+
+.banner-content span {
+    color: #ffe600;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.banner-content h2 {
+    color: white;
+    font-size: 54px;
+    line-height: 1.1;
+    margin: 20px 0;
+    font-weight: 700;
+}
+
+.banner-content .blue {
+    color: #12ace6;
+}
+
+.banner-content p {
+    color: #ffe600;
+    font-size: 16px;
+    margin-bottom: 35px;
+    font-weight: 600;
+}
+
+.preim-form {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.preim-form input {
+    width: 250px;
+    height: 52px;
+    border: none;
+    padding: 0 15px;
+    font-size: 16px;
+    outline: none;
+    background: #fff;
+}
+
+.preim-form button {
+    width: 220px;
+    border: none;
+    background: #11ace4;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.preim-form button:hover {
+    background: #0b95c8;
+}
+
+.banner-content small {
+    display: block;
+    color: white;
+    font-size: 12px;
+    max-width: 850px;
+    margin: auto;
+    line-height: 1.5;
+}
+
+@media (max-width: 1200px) {
+    .preim {
+        width: 100%;
+    }
+
+    .banner-content h2 {
+        font-size: 40px;
+    }
+
+    .preim-form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .preim-form input,
+    .preim-form button {
+        width: 90%;
+        max-width: 500px;
+    }
+}

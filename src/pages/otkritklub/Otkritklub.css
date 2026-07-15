@@ -1,0 +1,40 @@
+.club-page {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.club-header {
+    width: 100%;
+    background: #12aae3;
+    text-align: center;
+    padding: 40px 20px;
+    box-sizing: border-box;
+}
+
+.club-subtitle {
+    color: #ffe600;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.club-header h1 {
+    color: #fff;
+    font-size: 42px;
+    font-weight: 700;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.club-image {
+    width: 100%;
+    background: #fff;
+}
+
+.club-image img {
+    width: 100%;
+    display: block;
+}

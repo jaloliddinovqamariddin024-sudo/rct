@@ -11,7 +11,7 @@ function Layout() {
             <img
               className="logo"
               src={logo}
-              alt="TRUE"
+              alt="TRUE" 
             />
 
             <div className="header-right">
