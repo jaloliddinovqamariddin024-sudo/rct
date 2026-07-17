@@ -5,6 +5,7 @@ import Preimushestvo from "./pages/preimushestvo/preimushestvo";
 import Otkritklub from "./pages/otkritklub/otkritklub";
 import Contact from "./pages/contact/contact";
 import Home from "./pages/home/home";
+import NotFound from "./pages/not-Found/Notfound";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="preimushestvo" element={<Preimushestvo />} />
         <Route path="otkritklub" element={<Otkritklub />} />
         <Route path="contact" element={<Contact />} />
+         <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>
   );
